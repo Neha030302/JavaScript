@@ -284,8 +284,6 @@ const colorList = ["red", "green"];
 
 Prefix with on or handle 
 
- 
-
 function onClick() { ... } 
 function handleSubmit() { ... } 
 
@@ -298,18 +296,6 @@ Be Consistent: Follow the same convention throughout your project
 Avoid Single Letters: Except for simple loop counters (i, j, k) 
 
 Don't Use Abbreviations: Unless they're very common (btn, msg, err) 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 Declare Variable Using Variable Declarations (var, let, const) 
 
@@ -425,10 +411,6 @@ Why?
 var is function-scoped, so all iterations share the same j. 
 
 By the time setTimeout runs, j is already 3 
-
- 
-
- 
 
 Use let by default - It's the modern, safer choice 
 
