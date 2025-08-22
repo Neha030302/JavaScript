@@ -1,11 +1,21 @@
 {/**
     What is js -> 
-    JavaScript (JS) is a high-level, interpreted programming language primarily used for adding interactivity and dynamic behavior to web pages. 
+    JavaScript (JS) is a high-level scripting language, interpreted and support dynamic programming language primarily used for adding interactivity and dynamic behavior to web pages. 
     It’s one of the core technologies of the web, alongside HTML and CSS, and is supported by all modern web browsers. Originally developed in 1995 by Brendan Eich at Netscape, 
     JavaScript has evolved into a versatile language used for both client-side and server-side development.
+    High level -- portable, ease of use, dont do the low level task ho
+    it interprete the code line by line, did not convert into bite code/machine code there  is no pre compilation file 
+    dynamic type -> no need to define the types the variable is tring number boolean etc
+    execute the code at run time thats why it is interpreted lang 
+    run directly in web browser using engines
 
-    Introduction to JavaScript
-JavaScript is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. It’s dynamically typed, meaning variables can hold values of any type without explicit declaration. JS is often referred to as the "language of the web" because it enables developers to create responsive, interactive user interfaces and manipulate web content in real time.
+
+    code written (.js ext) --> execution in v8 engine/ node js ->parse- tokenising- syntax tree (useJIT just in time translate computer code to machine code)
+    JIT Compilation  --
+    Memory - heap stack for memory management  
+
+    Introduction to JavaScript 1995 netscape initial name mocha the live script then java script 
+    JavaScript is a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. It’s dynamically typed, meaning variables can hold values of any type without explicit declaration. JS is often referred to as the "language of the web" because it enables developers to create responsive, interactive user interfaces and manipulate web content in real time.
 JavaScript runs in a browser’s JavaScript engine (e.g., V8 in Chrome, SpiderMonkey in Firefox) and can also be used outside browsers with environments like Node.js for server-side applications. Its flexibility and vast ecosystem make it essential for modern web development.
 Key Aspects of JavaScript
 Here are the most important aspects of JavaScript, covering its features, use cases, and ecosystem:
