@@ -1,18 +1,18 @@
 /**
  * Arrays in JavaScript are a fundamental data structure
  * Arrays can hold any type of data, including numbers,strings, objects, and even other arrays.
- * 
+ * array is also a object in JS
  */
 // the key differences between objects and arrays in JavaScript are:
-
-// Objects are collections of key-value pairs, while arrays are ordered lists of elements.
-// Objects use keys to access values, while arrays use indexes.
-// Objects are best suited for representing structured data with named properties, while arrays are ideal for working with ordered collections of elements.
-// It's also common to use objects and arrays
-//  together in JavaScript to represent more
-//  complex data structures. For example, an
-//  object may contain arrays as property values,
-//  or an array may contain objects as elements.
+/**
+ * Objects use keys to access values, while arrays use indexes.
+ *  Objects are best suited for representing structured data with named properties, while arrays are ideal for working with ordered collections of elements.
+ *  It's also common to use objects and arrays
+ * together in JavaScript to represent more
+ * object may contain arrays as property values,
+ *  or an array may contain objects as elements.
+ * Objects are collections of key-value pairs, while arrays are ordered lists of elements.
+ */
 
 const theArray = ["I", "am", "array"];
 const theArray2 = ["I", "am", "array"];
@@ -56,17 +56,17 @@ console.log("👉 fill", theArray.fill("Second Filled", 0, 2));
 // filter
 const arrayOfObject = [
   {
-    name: "Ritik",
+    name: "Arun",
     age: 21,
-    skill: ["AI", "React Native", "Spring", "Javascript"],
+    skill: ["AI", "React Native", "Node", "Javascript"],
   },
   {
-    name: "Rohan",
+    name: "Neha",
     age: 18,
     skill: ["AI", "Javascript"],
   },
   {
-    name: "Rohit",
+    name: "Ayush",
     age: 25,
     skill: ["React Native", "Flask"],
   },
@@ -446,28 +446,28 @@ const array = [1, 2, 3, 4, 5];
 let removedElements = array.splice(2);
 // array is now [1, 2]
 // removedElements is [3, 4, 5]
-console.log(array,removedElements);
+console.log(array, removedElements);
 // Remove 2 elements starting from index 1 and insert 'a', 'b', 'c'
- removedElements = array.splice(1, 2, 'a', 'b', 'c');
+removedElements = array.splice(1, 2, 'a', 'b', 'c');
 // array is now [1, 'a', 'b', 'c']
 // removedElements is [2, 3]
-console.log(array,removedElements);
+console.log(array, removedElements);
 // Remove 0 elements starting from index 2 and insert 'x', 'y', 'z'
- removedElements = array.splice(2, 0, 'x', 'y', 'z');
+removedElements = array.splice(2, 0, 'x', 'y', 'z');
 // array is now [1, 'a', 'x', 'y', 'z', 'b', 'c']
 // removedElements is []
-console.log(array,removedElements);
+console.log(array, removedElements);
 // Remove 1 element starting from the end
- removedElements = array.splice(-1, 1);
+removedElements = array.splice(-1, 1);
 // array is now [1, 'a', 'x', 'y', 'z', 'b']
 // removedElements is ['c']
-console.log(array,removedElements);
+console.log(array, removedElements);
 
 // The unshift() method adds new elements to the beginning of an array.
 // The unshift() method overwrites the original array.
 
 const unShift = ["Banana", "Orange", "Apple", "Mango"];
-unShift.unshift("Lemon","Pineapple");
+unShift.unshift("Lemon", "Pineapple");
 console.log(unShift)
 
 //The with() method updates a specified array element.
