@@ -116,7 +116,7 @@ function outerFunction(outerVar) {
 const closureExample = outerFunction("OUTER");
 console.log(closureExample("INNER"));
 
-// 9️⃣ Project-oriented Example: Grade Calculation
+// 9️⃣  Grade Calculation
 console.log("\n9️⃣ Project Example: Grade Calculation:");
 function calculateGrade(marks) {
     if (marks >= 90) return "A+";
@@ -128,7 +128,7 @@ function calculateGrade(marks) {
 console.log("Grade for 82 marks:", calculateGrade(82));
 console.log("Grade for 45 marks:", calculateGrade(45));
 
-// 🔹 Bonus: Recursive function example
+// 🔹  Recursive function example
 console.log("\n🔟 Recursive function example: Fibonacci nth term");
 function fibonacci(n) {
     if (n <= 1) return n;
