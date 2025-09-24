@@ -48,7 +48,7 @@ Common outputs:
 
 number: Numbers (e.g., 18, 99.99).
 bigint: BigInt values.
-string: Strings (e.g., "hitesh").
+string: Strings (e.g., "hello").
 boolean: true or false.
 undefined: Uninitialized variables or undefined values.
 symbol: Symbol values.
@@ -70,8 +70,8 @@ console.log(typeof bigNumber); // "bigint"
 let name = "Neha";
 let greeting = 'Hello, ' + name; // Concatenation
 let template = `Hi, ${name}!`; // Template literal (ES6)
-console.log(greeting); // "Hello, hitesh"
-console.log(template); // "Hi, hitesh!"
+console.log(greeting); // "Hello, Neha"
+console.log(template); // "Hi, Neha!"
 console.log(typeof name); // "string"
 
 let isLoggedIn = false;
@@ -102,15 +102,14 @@ console.log(typeof id1); // "symbol"
 
 
 console.log(typeof 42); // "number"
-console.log(typeof "hitesh"); // "string"
+console.log(typeof "Neha"); // "string"
 console.log(typeof true); // "boolean"
 console.log(typeof null); // "object" (bug)
 console.log(typeof undefined); // "undefined"
 console.log(typeof Symbol("id")); // "symbol"
-console.log(typeof { name: "hitesh" }); // "object"
+console.log(typeof { name: "Neha" }); // "object"
 console.log(typeof [1, 2, 3]); // "object"
 console.log(typeof function() {}); // "function"
-
 
 // number => 2 to power 53
 // bigint
